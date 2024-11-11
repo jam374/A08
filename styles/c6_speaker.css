@@ -1,5 +1,29 @@
+article {
+    padding: 20px;
+    border: 1px solid #931420;
+    background-color: #fff;
+}
+
 article img {
     float: right;
     margin: 10px;
-    border: 1px solid #000;
+    border: 1px solid black;
+    width: 200px; /* Adjusted image size for layout consistency */
+}
+
+article h2 {
+    font-size: 140%;
+    color: #931420;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    font-size: 120%;
+    color: #800000;
+    margin-bottom: 10px;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
